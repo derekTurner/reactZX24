@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css'
-import Game from './components/Game';
+import List from './components/List'
 
 function App() {
   return (
-    <div className="App">
-      <Game />;
-    </div>
+  <List></List>
   );
 }
 
-  export default App;
+export default App;
