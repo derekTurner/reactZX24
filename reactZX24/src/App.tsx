@@ -1,9 +1,10 @@
-import React from 'react';
-import List from './components/List'
+import Routes from "./components/Routes";
 
 function App() {
   return (
-  <List></List>
+    <>
+      <Routes />
+    </>
   );
 }
 
